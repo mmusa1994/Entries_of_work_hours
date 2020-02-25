@@ -1,0 +1,122 @@
+/* Alert */
+.alert {
+  margin: 10px 50px;
+}
+
+/* Margin */
+.m {
+  margin: 0.5rem;
+}
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.m-3 {
+  margin: 3rem;
+}
+.my {
+  margin: 0.5rem 0;
+}
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+
+/* Text Styles*/
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+/* Utilities */
+.container {
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+.edit {
+  border: 2px solid gray;
+}
+i {
+  margin: 5px;
+}
+.logout {
+  float: right;
+  margin: 10px;
+}
+/* Table*/
+.table {
+  border: solid gray 2px;
+}
+
+/* Landing Page */
+.landing {
+  position: relative;
+  height: 100vh;
+}
+
+.landing-inner {
+  color: black;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+  .container {
+    margin-top: 8rem;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  /* Text Styles */
+  .x-large {
+    font-size: 3rem;
+  }
+
+  .large {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
