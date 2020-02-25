@@ -43,7 +43,7 @@ const EditWorkDay = ({ workDays: { data } }) => {
           <strong>Description</strong>
         </label>
         <p> {data.description} </p>
-        <a className="btn btn-outline-dark" href="/dashboard">
+        <a className="btn btn-outline-dark m-2" href="/dashboard">
           {' '}
           Back to Table
         </a>
